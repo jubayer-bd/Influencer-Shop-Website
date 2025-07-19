@@ -11,7 +11,14 @@
   body {
     background: rgb(255, 255, 255);
   }
+ .btn-primary {
+  padding: 10px 24px 10px 24px;
+  border-radius: 41px;
 
+background: rgb(224, 44, 109);
+border: none;
+color: rgb(255, 255, 255);
+ }
 
 /* Shared Styles */
 
@@ -28,7 +35,8 @@ font-weight: 700;
 .nav    {
     display: flex;
     align-items: center;
-    gap: 840px;
+    /* gap: 840px; */
+    justify-content: space-between;
     width: 100%;
 }
 
@@ -38,5 +46,44 @@ font-weight: 700;
     justify-content: space-around;
     gap: 15px;
     margin-right: 40px;
+    color: rgb(58, 58, 58);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 600;
 
+}
+
+/* nav ::content */
+
+.nav-content {
+  display: flex;
+  margin-top: 40px;
+  /* border: 2px solid tomato; */
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+.nav-content-description {
+  text-align: left;
+  margin-left: 50px;
+}
+.nav-content-title {
+  width: 582px;
+  color: rgb(58, 58, 58);
+font-family: Poppins;
+font-size: 40px;
+font-weight: 600;
+}
+.nav-content-description p {
+  color: rgb(58, 58, 58);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+width: 500px;
+}
+.nav-content-img  {
+  background-image: url('../images/Circle\ design.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 50px;
 }
