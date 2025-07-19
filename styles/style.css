@@ -14,7 +14,7 @@
  .btn-primary {
   padding: 10px 24px 10px 24px;
   border-radius: 41px;
-
+ 
 background: rgb(224, 44, 109);
 border: none;
 color: rgb(255, 255, 255);
@@ -86,4 +86,18 @@ width: 500px;
   background-repeat: no-repeat;
   background-size: contain;
   margin: 50px;
+}
+
+/* sponsors */
+.sponsors {
+  display: flex;
+  /* justify-items: center; */
+  margin-top: 30px ;
+  width: 100%;
+  gap: 100px;
+  margin-left: 120px;
+  align-items: center;
+}
+/* .sponsors img {
+  align-items: center; */
 }
