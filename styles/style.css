@@ -98,6 +98,84 @@ width: 500px;
   margin-left: 120px;
   align-items: center;
 }
-/* .sponsors img {
-  align-items: center; */
+/* Popular Collection */
+   .popular-content-title {
+    color: rgb(58, 58, 58);
+font-family: Poppins;
+font-size: 28px;
+font-weight: 600;
+line-height: 70px;
+letter-spacing: 0px;
+text-align: center;
+
+width: 100%;
+   }
+
+ .Collection-card-item {
+    width: 330px;
+    height: 480px;
+    border-radius: 5px;
+   box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+   background: rgb(255, 255, 255);
+ }
+
+ .Collection-card-item img {
+  border-radius: 5px;
+  width: 300px;
+  height: 260px;
+  margin: auto;
+  margin-top: 10px;
+  margin-left: 15px;
+  
+ }
+ .Collection-card-item h4 {
+  color: rgb(24, 25, 31);
+font-family: Poppins;
+font-size: 28px;
+font-weight: 500;
+ margin: 0 5px;
+ 
+ }
+
+ .Collection-card-item h6 {
+  color: rgba(0, 0, 0, 0.87);
+font-family: Inter;
+font-size: 24px;
+font-weight: 400;
+margin: 0 5px;
+ }
+.Collection-card-item-rating i {
+ color: rgb(251, 130, 0);
+ margin-left: 5px;
+}
+.Collection-card-item-rating span {
+  color: rgb(94, 99, 102);
+font-family: Roboto;
+font-size: 14px;
+font-weight: 700;
+}
+.Collection-card-item-p {
+  color: rgb(120, 120, 133);
+font-family: Inter;
+font-size: 14px;
+font-weight: 700;
+text-align: left;
+margin: 5px;
+}
+
+/* content-card-container */
+.popular-content-section {
+  
+ align-items: center;
+}
+
+.content-card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 60px;
+   /* margin-left: -30px;  Half of your gap value (60px / 2 = 30px) */
+  /* margin-right: -30px;  */
+  width: 900px;
+  margin-left: 190px;
 }
