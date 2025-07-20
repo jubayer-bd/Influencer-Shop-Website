@@ -179,3 +179,46 @@ margin: 5px;
   width: 900px;
   margin-left: 190px;
 }
+.see-more {
+  
+  color: rgba(224, 44, 109, 0.87);
+  text-align: right;
+  margin-right: 210px;
+  margin-top: 40px;
+}
+
+/* feature-product */
+.feature-product {
+  display: flex;
+  justify-content: center;
+ margin: 100px 160px;
+  gap: 90px;
+}
+.product-content {
+  width: 610px;
+height: 224px;
+}
+.feature-product h2 {
+  color: rgb(10, 8, 38);
+font-family: Poppins;
+font-size: 38px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+.feature-product p {
+  color: rgb(108, 108, 108);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: left;
+width: 501px;
+height: 88px;
+}
+.feature-product button {
+  border-radius: 0;
+}
